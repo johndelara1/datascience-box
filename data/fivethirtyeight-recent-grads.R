@@ -3,6 +3,7 @@ library(janitor)
 library(fivethirtyeight)
 
 # Read data from 538
+# não funcionou no meu esse código
 d <- read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/college-majors/recent-grads.csv") %>%
   clean_names() %>%
   rename(
